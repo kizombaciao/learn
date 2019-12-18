@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<p id="test">this is a paragraph!</p>
+    
+<script>
+    // once the document has been loaded, then need to load the jquery code.
+    /* popup appears
+    $(document).ready(function() {
+        $("#test").click(function() {
+        alert("Clicked");
+        });
+    });
+    */
+
+    // click and phrase hides
+    $(document).ready(function() {
+        $("#test").click(function() {
+            $(this).hide();
+        });
+    });
+    
+/* javascript version
+
+    document.getElementById("test").onclick = function() {
+        alert("Clicked");
+    }
+*/
+</script>
+
+</body>
+</html>

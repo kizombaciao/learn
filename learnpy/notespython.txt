@@ -1,0 +1,13 @@
+
+> chmod +x file.py
+
+// len() can tell you how long a string is, 
+the number of elements in lists 
+and tuples (another array-like data structure), 
+and the number of key-value pairs in a dictionary.
+
+// don't use "len" as a variable name 
+to avoid blocking out the len() function.
+
+// The '+' operator can concatenate two strings. 
+

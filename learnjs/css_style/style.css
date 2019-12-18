@@ -1,0 +1,26 @@
+h1
+{
+    font-family: arial, "Times New Roman";
+    font-size: 22px; /* pixels */
+    font-style: italic;
+    font-weight: 100;
+    text-align: left; /* justify */
+    text-decoration: underline;
+    text-transform: capitalize; /* uppercase. lowercase */
+    color: #FF0000; /* https://color.adobe.com/create */
+    color: rgb(204,170,47); /* using rgb */
+    color: rgba(204,170,47, 0.9); /* rgba controls translucency 0 to 1 */
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+p
+{
+    text-indent: 30px; /* indents first line like a paragraph */
+    font-size: 22px;
+    line-height: 30px;
+}
+a
+{
+    text-decoration: none;
+}
+/* removes the default underline */

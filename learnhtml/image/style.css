@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper {
+    margin: 0 auto; /* top right bottom left */
+    width: 1000px;
+}
+
+.img-eye {
+    width: 300px; /* height will automatically rescale */
+    height: 200px;
+    background-image: url("img/sanitize.png");
+    background-size: 200%; /* 100% / contain / cover */
+    background-repeat: no-repeat; /* not to repeat if size is set to 50% */
+    background-position: center left;
+}
+
+.img-eye:hover {
+    background-size: 100%; /* 100% / contain / cover */
+
+}
